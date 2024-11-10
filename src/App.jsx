@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import NavbarPage from './NavbarPage'
+import Navbarpage from './Navbarpage'
 import Who from './Who'
 import Projects from './Projects'
 import Contact from './Contact'
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='wholecontainer'>
     <div className='aco'>
-    <NavbarPage/>
+    <Navbarpage/>
     <Projects/>
     <Who/>
     
