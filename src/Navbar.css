@@ -1,0 +1,75 @@
+/* Navbar container */
+.nco {
+  
+  padding: 10px 40px; /* Add space on left and right */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  width: 100%; /* Ensure it stretches across the full width */
+  box-sizing: border-box;
+  
+  
+}
+
+/* Navbar list styling */
+.nco ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  flex: 1; /* Allow ul to take up the available space */
+}
+
+/* Navbar list items */
+.nco ul li {
+   /* Added more space between items */
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'Lily Script One';
+}
+
+/* Navbar links styling */
+.nco ul li a {
+  color: white;
+  text-decoration: none;
+  
+  transition: color 0.3s;
+}
+
+.nco ul li a:hover {
+  color: #714778;
+}
+
+
+
+
+
+
+.nco li:nth-child(1) {
+  color: #79fff8;
+  padding-right: 15vw;
+  margin-right: 0;
+  
+  font-size: 20px;
+  
+}
+
+.nco li:nth-child(2) {
+  
+  padding-right: 150px; /* Space between text and border */
+}
+
+.nco li:nth-child(3) {
+  /* Example color and size */
+ padding-right: 150px; /* Space between text and border */
+}
+
+.nco li:nth-child(4) {
+  /* Example color and size */
+ padding-right: 150px; /* Space between text and border */
+}
+
+

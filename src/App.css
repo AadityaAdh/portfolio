@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@font-face {
+    font-family: 'Nico Moji';
+    src: url('./assets/fonts/NicoMoji.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.aco{
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    height: 100vh; /* tyakkai screen ma fit */
+    overflow: auto; /* tesmai scroll hos vanae ra */
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: black;
+    scrollbar-width: none;
+    
+}
+
+.aco::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+.wholecontainer{
+    background-color: black;
+}

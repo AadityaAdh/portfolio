@@ -1,0 +1,26 @@
+.npco{
+    scroll-snap-align: start;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.model1container{
+    height: 50vh;
+    width: 70vw;
+    margin-top: 20vh;
+    margin-left: -10vw;
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+.npbco{
+    display: flex;
+}
