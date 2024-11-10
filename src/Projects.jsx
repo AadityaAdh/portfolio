@@ -10,7 +10,7 @@ export default function Projects() {
       <div className='pcaco'>
         
         <div className='card'>
-        <img src='./public/images/facerecog.jpg'></img>
+        <img src='./portfolio/public/images/facerecog.jpg'></img>
           <div className='outside'>
           <h1>Face recognition with automated attendence</h1>
           <p>A facial recognition system designed for accurate identification and verification of individuals by analyzing unique facial features. The project supports real-time recognition, making it ideal for applications like automated attendance, security, and personalized user experiences.</p>
@@ -22,7 +22,7 @@ export default function Projects() {
           
         </div>
         <div className='card'>
-        <img src='./public/images/hangman.png'></img>
+        <img src='./portfolio/public/images/hangman.png'></img>
           <div className='outside'>
           <h1>Hangman</h1>
           <p>A classic Hangman game featuring graphical elements, sound effects, and a scoring system, bringing a fun, interactive twist to the traditional word-guessing challenge.</p>
@@ -37,7 +37,7 @@ export default function Projects() {
           
         </div>
         <div className='card'>
-        <img src='./public/images/airline.jpg'></img>
+        <img src='./portfolio/public/images/airline.jpg'></img>
           <div className='outside'>
           <h1>Airline reservation system</h1>
           <p>An airline reservation system built to streamline booking, manage schedules, and handle passenger information efficiently, enhancing the travel experience and operational ease.</p>
@@ -54,7 +54,7 @@ export default function Projects() {
 
 
 
-          <img src='./public/images/gan.png'></img>
+          <img src='./portfolio/public/images/gan.png'></img>
           <div className='outside'>
           <h1>Traffic sign generation and recognition</h1>
           <p>A system for traffic sign recognition and generation that accurately identifies signs and generates synthetic images, enhancing data for autonomous driving and traffic monitoring.</p>

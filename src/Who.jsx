@@ -6,7 +6,7 @@ export default function Who() {
 
   return (
     <div className='wco' style={wcos}>
-      <img src='./public/images/aaditya.png' alt='Aaditya Adhikari' />
+      <img src='./portfolio/public/images/aaditya.png' alt='Aaditya Adhikari' />
       <p>
         I am <strong>Aaditya Adhikari</strong>, a computer engineering graduate with expertise in
         <strong>machine learning</strong>, <strong>data analysis</strong>, and <strong>web development</strong>. I've worked on
