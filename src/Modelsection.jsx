@@ -6,7 +6,7 @@ import { Laptop } from './Laptop';
 
 
 function Model() {
-  const { scene } = useGLTF('./src/computer.gltf');
+  const { scene } = useGLTF('./public/models/computer.gltf');
   return <primitive object={scene} />;
 }
 
