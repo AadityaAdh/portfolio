@@ -3,7 +3,7 @@ import { useGLTF, useAnimations } from '@react-three/drei'
 
 export function Computer(props) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('./public/models/computer.gltf')
+  const { nodes, materials, animations } = useGLTF('computer.gltf')
   const { actions,names } = useAnimations(animations, group)
   console.log(names)
   useEffect(()=>{
@@ -344,4 +344,4 @@ export function Computer(props) {
   )
 }
 
-useGLTF.preload('./public/models/computer.gltf')
+useGLTF.preload('computer.gltf')
