@@ -3,7 +3,7 @@ import { useGLTF, useAnimations } from '@react-three/drei'
 
 export function Laptop(props) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('laptop.gltf')
+  const { nodes, materials, animations } = useGLTF('./laptop.gltf')
   const { actions,names } = useAnimations(animations, group)
   console.log(names)
   
@@ -1185,4 +1185,4 @@ export function Laptop(props) {
   )
 }
 
-useGLTF.preload('laptop.gltf')
+useGLTF.preload('./laptop.gltf')
